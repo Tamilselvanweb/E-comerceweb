@@ -1,0 +1,69 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    overflow-x:hidden;
+}
+.root
+{
+    --color-1:#DB3838;
+    
+}
+
+
+.img{
+    width:200px;
+    height:150px;
+    background-color:white;
+    top:25px;
+    z-index:1;
+
+}
+.e-com2
+{
+  top:20px;
+  right:80px;
+}
+.e-com3
+{
+    border:2px solid black;
+    border-radius:100%;
+    margin:5px 5px;
+    padding:8px;
+}
+.form
+{
+    background-color: antiquewhite;
+    height:60px;
+}
+
+nav li a:hover
+{
+    border-bottom:2px solid red;
+}
+.form6
+{
+    background-color: antiquewhite;
+}
+.class
+{
+    top:20px;
+    right:70px;
+}
+button
+{
+    padding-left:180px;
+    padding-right:180px;
+    padding-top:10px;
+    padding-bottom:10px;    
+}
+@media (max-width:520px)
+{
+    .margin
+    {
+        margin-top:100px;
+    }
+}
